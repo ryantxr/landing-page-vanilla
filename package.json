@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "prod": "npx @tailwindcss/cli -i ./src/input.css -o ./public/styles.css --minify",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./public/styles.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7",
+    "tailwindcss": "^4.1.7"
+  }
+}

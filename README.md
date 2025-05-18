@@ -1,2 +1,28 @@
 # landing-page-vanilla
-Vanilla html landing page
+
+Vanilla html landing page.
+
+This is a plain landing page that can be repurposed as needed.
+Use it as a starting point to build your own.
+
+## Quick Start
+
+    git clone the-project
+    npm install
+    npm run build
+
+## Project Structure
+
+    root
+        - public/
+        -- index.html
+
+        -- images/  (images go here)
+
+        - src/
+        -- input.css
+        
+        - tailwind.config.js
+        - package.json
+        - package-lock.json
+        - Makefile

@@ -1,0 +1,33 @@
+{
+    "description": "folder structure",
+    "root": {
+        "type": "dir",
+        "contents": {
+            "public": {
+                "type": "dir",
+                "contents": {
+                    "index.html": {
+                        "type": "file",
+                        "note": "main html file"
+                    },
+                    "styles.css": {
+                        "type": "file",
+                        "note":"tailwindcss output"
+                    }
+                }
+            },
+            "src": {
+                "type": "dir",
+                "contents": {
+                    "input.css": {
+                        "type": "file",
+                        "note": "tailwindcss input"
+                    }
+                }
+            },
+            "vite.config.js": {
+                "type": "file"
+            }
+        }
+    }
+}
