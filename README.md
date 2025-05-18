@@ -7,9 +7,15 @@ Use it as a starting point to build your own.
 
 ## Quick Start
 
-    git clone the-project
+    git git@github.com:ryantxr/landing-page-vanilla.git
+    cd landing-page-vanilla
     npm install
     npm run build
+
+    Serve via live-server (optional)
+    npm install -g live-server
+    live-server public
+
 
 ## Project Structure
 
